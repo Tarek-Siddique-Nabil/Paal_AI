@@ -4,15 +4,15 @@ import Image from "next/image";
 export const Two = () => {
   return (
     <section
-      className={`second-section h-screen ${ClashGrotesk.variable} flex flex-col justify-center items-center text-center md:gap-10 gap-10`}
+      className={`second-section md:h-screen ${ClashGrotesk.variable} flex flex-col justify-center items-center text-center md:gap-10 gap-10 `}
     >
-      <div className="md:w-[825px] md:h-14 ">
-        <p className="font-clashgrotesk font-semibold text-2xl leading-7 text-center">
+      <div className="md:w-[825px] md:h-14 md:px-0  px-10">
+        <p className="font-clashgrotesk font-semibold md:text-2xl text-xl leading-7 text-center">
           Embrace the future of digital asset trading. Mint your PAAL Xclusive
           NFT today for seamless, fee-free experiences on PaalX v1.1.
         </p>
       </div>
-      <div className="md:w-[520px] md:h-36 ">
+      <div className="md:w-[520px] md:h-36 md:px-0 px-16">
         <p className="font-clashgrotesk font-medium text-[15px] leading-[18px] text-center text-[#828282]">
           🌟NFT Mint Launch: Dive into the exclusive PAAL Xclusive NFT Minting,
           now open! Secure your very own PAAL Xclusive Whitelist NFT for just
