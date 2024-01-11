@@ -11,7 +11,7 @@ export const One = () => {
         Mint. Claim. Trade.
       </p>
 
-      <div>
+      <div className="flex flex-col gap-4">
         <p
           className={`text-white font-clashgrotesk font-semibold text-lg md:text-2xl leading-8`}
         >
@@ -20,7 +20,17 @@ export const One = () => {
         <p
           className={`text-white font-clashgrotesk font-light text-lg md:text-2xl leading-8`}
         >
-          Access Fee-Free Trading on PaalX v1.1
+          Access Fee-Free Trading on PaalX v0.1
+        </p>
+        <p
+          className={`text-white font-clashgrotesk font-light text-lg md:text-2xl leading-8`}
+        >
+          Earn passive ETH from NFT trading volume fees.
+        </p>
+        <p
+          className={`text-white font-clashgrotesk font-light text-lg md:text-2xl leading-8`}
+        >
+          Access to exclusive features in PaalX
         </p>
       </div>
 
