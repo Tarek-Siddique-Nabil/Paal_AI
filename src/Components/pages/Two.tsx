@@ -18,7 +18,7 @@ export const Two = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-end md:gap-5 gap-20">
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-end md:gap-5 gap-20 mt-5 md:mt-0">
         <SmallBox
           icon="🔑"
           headline="Fee-Free Trading "
