@@ -7,7 +7,7 @@ export const Logo = () => {
       alt="logo"
       width="213"
       height="55"
-      priority={true}
+      priority
       quality={100}
     />
   );

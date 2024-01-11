@@ -30,6 +30,8 @@ export const Two = () => {
             width="308"
             height="308"
             alt=""
+            priority
+            quality={100}
             className="rounded-xl mt-4"
           />
           <div className="font-clashgrotesk text-[28px] text-base-vilolet font-semibold">
