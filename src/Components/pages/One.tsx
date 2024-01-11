@@ -11,7 +11,7 @@ export const One = () => {
         Mint. Claim. Trade.
       </p>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-1 md:gap-3">
         <p
           className={`text-white font-clashgrotesk font-semibold text-lg md:text-2xl leading-8`}
         >
