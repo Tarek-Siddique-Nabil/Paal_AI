@@ -6,12 +6,12 @@ export const One = () => {
       className={`${ClashGrotesk.variable} h-screen flex flex-col justify-center items-center text-center md:gap-5 gap-10 first-section `}
     >
       <p
-        className={`text-base-vilolet font-clashgrotesk font-semibold text-[105px] md:leading-[130px] leading-[86px]`}
+        className={`text-base-vilolet font-clashgrotesk font-semibold text-[95px] md:text-[105px] md:leading-[130px] leading-[86px]`}
       >
         Mint. Claim. Trade.
       </p>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3">
         <p
           className={`text-white font-clashgrotesk font-semibold text-lg md:text-2xl leading-8`}
         >
