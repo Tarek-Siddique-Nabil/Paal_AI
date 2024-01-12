@@ -27,7 +27,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`fixed flex w-full flex-col items-center  justify-center gap-2 pt-6 transition-all duration-150 ease-linear md:flex-row md:justify-between md:gap-0 md:px-20 ${
+      className={`fixed flex w-full    justify-center gap-2 pt-6 transition-all duration-150 ease-linear md:justify-between md:gap-0 md:px-20 ${
         progressStyle.height > "1%"
           ? "z-[9999] border-b border-base-violet-light bg-[#141414]/[0.54] py-2 backdrop-blur md:py-5  "
           : "bg-transparent"
@@ -37,9 +37,9 @@ const Navbar = () => {
       <button
         className={`${
           progressStyle.height > "1%"
-            ? "hidden border border-base-vilolet md:block"
+            ? " border border-base-vilolet "
             : "bg-base-vilolet"
-        } h-12 w-[150px] rounded-lg  font-clashgrotesk font-medium transition-all duration-150 ease-linear ${
+        } hidden h-12 w-[150px]  rounded-lg font-clashgrotesk font-medium transition-all duration-150 ease-linear md:block ${
           ClashGrotesk.variable
         } `}
       >
