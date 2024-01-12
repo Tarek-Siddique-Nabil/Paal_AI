@@ -26,6 +26,11 @@ const Three = () => {
         simulateTouch: false,
       },
       1440: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        simulateTouch: false,
+      },
+      1920: {
         slidesPerView: 4,
         spaceBetween: 10,
         simulateTouch: false,
@@ -51,6 +56,7 @@ const Three = () => {
         modules={[Navigation, Autoplay]}
         autoplay={swiperConfig.breakpoints}
         navigation={true}
+        className=" w-full   xl:w-[80%] 2xl:w-[70%]"
       >
         <SwiperSlide>
           <section className="flex h-full flex-col items-center justify-center gap-4">
