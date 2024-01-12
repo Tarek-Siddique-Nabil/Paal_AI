@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`fixed w-full flex md:justify-between justify-center md:px-20 pt-6 ${
         progressStyle.height > "1%"
-          ? "bg-[#141414]/[0.54] backdrop-blur z-[9999] md:py-5 py-2"
+          ? "bg-[#141414]/[0.54] backdrop-blur z-[9999] md:py-5 py-2 border-b border-base-violet-light  "
           : "bg-transparent"
       } `}
     >
